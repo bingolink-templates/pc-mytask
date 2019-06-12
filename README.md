@@ -1,9 +1,5 @@
-# widget-newslist
-
-> PC新闻列表
-
 ## 安装
-``` bash
+``` bas
 # install dependencies
 npm install
 ```
