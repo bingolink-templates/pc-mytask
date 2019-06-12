@@ -1,7 +1,7 @@
 <template>
   <div class="news">
     <div class="header">
-      <span class="title">{{i18n.MyTask}}</span>
+      <span class="title">{{i18n.MyTask}}<i>{{items.length>0?'('+items.length+')':''}}</i></span>
       <span class="more" @click="toMore()">{{i18n.More}}</span>
     </div>
     <div class="content">
