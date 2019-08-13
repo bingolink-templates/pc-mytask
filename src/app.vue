@@ -38,6 +38,9 @@
         },
         created() {
             this.loadTask();
+            app.linkplugin.listenRefreshWidgetData(() => {
+                this.loadTask();
+            });
         },
         mounted() {
         },
